@@ -7,7 +7,7 @@ import joblib
 
 def main():
     st.title('Stroke Prediction Model Using Random Forest')
-    filename = 'RF_model_.pkl'
+    filename = 'Logistic_model.pkl'
     loaded_model = joblib.load(filename)
         #Caching the model for faster loading
         # @st.cache
